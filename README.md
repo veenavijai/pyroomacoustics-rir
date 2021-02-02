@@ -22,7 +22,7 @@ Rooms differ in properties such as shape and size, which determine their surface
 **Tools**
 
 <p align="center">
-  <img width="600" height="100" src="https://user-images.githubusercontent.com/21968647/106542787-52741a00-64b9-11eb-8840-ba607c114625.png">
+  <img width="600" height="150" src="https://user-images.githubusercontent.com/21968647/106542787-52741a00-64b9-11eb-8840-ba607c114625.png">
 </p>
 
 pyroomacoustics is a package for "audio signal processing for indoor applications," developed by EPFL. 
@@ -35,7 +35,25 @@ pyroomacoustics has a ‘room’ class which takes room parameters as input, not
 
 **Dataset**
 
+In order to design realistic rooms, realistic designs were required. For this purpose, floor plans and designs from the following sources were considered: USC Housing, USC ITS Room Finder, and pinterest.
+
+<p align="center">
+  <img width="400" height="300" src="https://user-images.githubusercontent.com/21968647/106543333-59e7f300-64ba-11eb-9de8-ac93578d9ad3.png">
+</p>
+
 **Room Design with pyroomacoustics**
+
+Classrooms: 
+● 6 floor plans were shortlisted from the above sources
+● Each shape could have 5 possible sizes, designed to be proportional
+● Ceiling height was fixed as 10 units (standard ceiling height is about 10 ft)
+● Their absorption coefficients varied between 0.1 to 0.8 in increments of 0.05
+● No. of rooms = 6 designs * 5 sizes * 15 coeffs = 450 rooms
+● Source (x, y, z) in front left corner at 5 ft height and mic (x2, y2, z2) in the middle of the
+room at 2 ft height
+● Surface area and vol calculated for each room, approximated for irregular shapes
+
+Auditoriums:
 
 **Similarity Calculation**
 
