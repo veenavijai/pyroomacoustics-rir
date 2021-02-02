@@ -44,16 +44,20 @@ In order to design realistic rooms, realistic designs were required. For this pu
 **Room Design with pyroomacoustics**
 
 Classrooms: 
-● 6 floor plans were shortlisted from the above sources
-● Each shape could have 5 possible sizes, designed to be proportional
-● Ceiling height was fixed as 10 units (standard ceiling height is about 10 ft)
-● Their absorption coefficients varied between 0.1 to 0.8 in increments of 0.05
-● No. of rooms = 6 designs * 5 sizes * 15 coeffs = 450 rooms
-● Source (x, y, z) in front left corner at 5 ft height and mic (x2, y2, z2) in the middle of the
-room at 2 ft height
-● Surface area and vol calculated for each room, approximated for irregular shapes
+● 6 floor plans were shortlisted from the above sources \
+● Each shape could have 5 possible sizes, designed to be proportionaln\
+● Ceiling height was fixed as 10 units (standard ceiling height is about 10 ft) \
+● Their absorption coefficients varied between 0.1 to 0.8 in increments of 0.05 \
+● No. of rooms = 6 designs * 5 sizes * 15 coeffs = 450 rooms \
+● Source (x, y, z) in front left corner at 5 ft height and mic (x2, y2, z2) in the middle of the room at 2 ft height \
+● Surface area and vol calculated for each room, approximated for irregular shapes 
 
 Auditoriums:
+● 3 floor plans were added, each with only one size, and ceiling height at 20 units \
+● Their absorption coefficients varied between 0.1 to 0.8 in increments of 0.05 \
+● No. of rooms = 3 designs * 1 size * 15 coeffs = 45 rooms \
+● Source (x, y, z) in the middle of the stage at 7 ft height and mic (x2, y2, z2) in the middle of the audience at 10 ft height \
+● Surface area and vol calculated for each room, approximated for irregular shapes
 
 **Similarity Calculation**
 
