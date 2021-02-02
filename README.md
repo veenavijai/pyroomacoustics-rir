@@ -10,10 +10,6 @@ Rooms differ in properties such as shape and size, which determine their surface
 
 **OBJECTIVES**
 
-<p align="center">
-  <img width="400" height="50" src="https://user-images.githubusercontent.com/21968647/106542952-a67efe80-64b9-11eb-8775-f99f770c340d.png">
-</p>
-
 1. Create a dataset of realistic rooms with varying size, shape, and absorption coefficient
 2. Calculate and store the impulse response in time and frequency domain for the dataset
 3. Given a different room, recommend the three most similar rooms from the dataset
@@ -74,7 +70,7 @@ To account for varying lengths of the frequency responses, log energy is grouped
 ● If we choose bins of width 100 Hz, we have 80 bins \
 ● We sum log energy for each of the 80 bins \
 ● Now, the varying-length frequency response is an 80-dim vector \
-● We can calculate Pearson’s correlation coefficient \
+● We can calculate Pearson’s correlation coefficient 
 
 **RESULTS & INFERENCES**
 
