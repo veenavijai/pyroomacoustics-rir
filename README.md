@@ -38,12 +38,12 @@ pyroomacoustics has a ‘room’ class which takes room parameters as input, not
 In order to design realistic rooms, realistic designs were required. For this purpose, floor plans and designs from the following sources were considered: USC Housing, USC ITS Room Finder, and pinterest.
 
 <p align="center">
-  <img width="400" height="300" src="https://user-images.githubusercontent.com/21968647/106543333-59e7f300-64ba-11eb-9de8-ac93578d9ad3.png">
+  <img width="400" height="250" src="https://user-images.githubusercontent.com/21968647/106543333-59e7f300-64ba-11eb-9de8-ac93578d9ad3.png">
 </p>
 
 **Room Design with pyroomacoustics**
 
-Classrooms: 
+Classrooms: \
 ● 6 floor plans were shortlisted from the above sources \
 ● Each shape could have 5 possible sizes, designed to be proportionaln\
 ● Ceiling height was fixed as 10 units (standard ceiling height is about 10 ft) \
@@ -52,7 +52,7 @@ Classrooms:
 ● Source (x, y, z) in front left corner at 5 ft height and mic (x2, y2, z2) in the middle of the room at 2 ft height \
 ● Surface area and vol calculated for each room, approximated for irregular shapes 
 
-Auditoriums:
+Auditoriums: \
 ● 3 floor plans were added, each with only one size, and ceiling height at 20 units \
 ● Their absorption coefficients varied between 0.1 to 0.8 in increments of 0.05 \
 ● No. of rooms = 3 designs * 1 size * 15 coeffs = 45 rooms \
