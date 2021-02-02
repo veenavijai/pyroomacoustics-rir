@@ -43,6 +43,13 @@ In order to design realistic rooms, realistic designs were required. For this pu
 
 **Room Design with pyroomacoustics**
 
+Based on room designs from the above sources, 495 rooms were designed of varying shape, size, and absorption coefficient. The details are described below.
+
+
+<p align="center">
+  <img width="400" height="500" src="https://user-images.githubusercontent.com/21968647/106564705-7435c700-64e2-11eb-92dc-ff69d04e9343.png">
+</p>
+
 Classrooms: \
 ● 6 floor plans were shortlisted from the above sources \
 ● Each shape could have 5 possible sizes, designed to be proportionaln\
@@ -58,6 +65,7 @@ Auditoriums: \
 ● No. of rooms = 3 designs * 1 size * 15 coeffs = 45 rooms \
 ● Source (x, y, z) in the middle of the stage at 7 ft height and mic (x2, y2, z2) in the middle of the audience at 10 ft height \
 ● Surface area and vol calculated for each room, approximated for irregular shapes
+
 
 **Similarity Calculation**
 
