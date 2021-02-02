@@ -11,7 +11,7 @@ Rooms differ in properties such as shape and size, which determine their surface
 **Objectives**
 
 <p align="center">
-  <img width="400" height="150" src="https://user-images.githubusercontent.com/21968647/106542952-a67efe80-64b9-11eb-8775-f99f770c340d.png">
+  <img width="400" height="50" src="https://user-images.githubusercontent.com/21968647/106542952-a67efe80-64b9-11eb-8775-f99f770c340d.png">
 </p>
 
 1. Create a dataset of realistic rooms with varying size, shape, and absorption coefficient
@@ -22,7 +22,7 @@ Rooms differ in properties such as shape and size, which determine their surface
 **Tools**
 
 <p align="center">
-  <img width="600" height="300" src="https://user-images.githubusercontent.com/21968647/106542787-52741a00-64b9-11eb-8840-ba607c114625.png">
+  <img width="600" height="100" src="https://user-images.githubusercontent.com/21968647/106542787-52741a00-64b9-11eb-8840-ba607c114625.png">
 </p>
 
 pyroomacoustics is a package for "audio signal processing for indoor applications," developed by EPFL. 
