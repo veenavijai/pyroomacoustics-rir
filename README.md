@@ -10,6 +10,10 @@ Rooms differ in properties such as shape and size, which determine their surface
 
 **Objectives**
 
+<p align="center">
+  <img width="400" height="150" src="https://user-images.githubusercontent.com/21968647/106542952-a67efe80-64b9-11eb-8775-f99f770c340d.png">
+</p>
+
 1. Create a dataset of realistic rooms with varying size, shape, and absorption coefficient
 2. Calculate and store the impulse response in time and frequency domain for the dataset
 3. Given a different room, recommend the three most similar rooms from the dataset
@@ -17,7 +21,17 @@ Rooms differ in properties such as shape and size, which determine their surface
 
 **Tools**
 
+<p align="center">
+  <img width="600" height="300" src="https://user-images.githubusercontent.com/21968647/106542787-52741a00-64b9-11eb-8840-ba607c114625.png">
+</p>
 
+pyroomacoustics is a package for "audio signal processing for indoor applications," developed by EPFL. 
+
+<p align="center">
+  <img width="350" height="300" src="https://user-images.githubusercontent.com/21968647/106543044-d0d0bc00-64b9-11eb-81f6-b03cf0f6c438.png">
+</p>
+
+pyroomacoustics has a ‘room’ class which takes room parameters as input, notably: coordinates for room corners, room height, absorption coefficient, coordinates of source and mic/mic array, etc. It uses an image source model (ISM), for which the maximum order can be specified. In the experiments below, the order was chosen to be the default, which is 8 reflections.
 
 **Dataset**
 
